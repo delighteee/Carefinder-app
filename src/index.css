@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+.btn{
+  @apply py-3 px-6 rounded-md transition duration-300
+};
+
+.btn-primary{
+  @apply bg-Primary text-white
+};
+
+.btn-secondary{
+  @apply bg-Secondary text-white
+};
+
+.btn-minimal{
+  @apply bg-white  border border-gray-300 hover:bg-gray-300  text-black
+};
